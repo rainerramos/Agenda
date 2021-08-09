@@ -12,9 +12,8 @@ class ContactRepository {
         }
 
         fun delete(contact: ContactEntity) {
-            // contactList.remove(contact)
 
-            var index = 0
+           var index = 0
             for (item in contactList.withIndex()) {
                 if (item.value.name == contact.name && item.value.phone == contact.phone) {
                     index = item.index
@@ -22,6 +21,7 @@ class ContactRepository {
                 }
             }
             contactList.removeAt(index)
+            val a = ""
 
         }
 

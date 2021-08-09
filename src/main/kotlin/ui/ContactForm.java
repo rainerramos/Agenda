@@ -50,7 +50,6 @@ public class ContactForm extends JFrame {
                 } catch (Exception excp) {
                     JOptionPane.showMessageDialog(new JFrame(), excp.getMessage());
                 }
-
             }
         });
 
